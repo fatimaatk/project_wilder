@@ -21,10 +21,41 @@ nav ul li a {
 nav ul li a:hover {
     color: goldenrod;
 }
+
 #logo {
     height: 3em;
 }
+
 body {
     background-color: #D99F9F;
     margin: 0px;
+}
+
+#flex-container1 {
+    display: flex;
+    font-size: 14px;
+    font-family:'Raleway', sans-serif;
+}
+
+#flex-container2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-family:'Raleway', sans-serif;
+}
+
+.articleCursus {
+    background-color: #F1F1F1;
+    padding: 15px;
+    margin: 15px;
+    width: 55%;
+}
+.banniere {
+    background-color: rgb(246, 84, 84);
+    height: 100px;
+}
+
+.articleDiv {
+    background-color: white;
+    padding: 10px;
 }
