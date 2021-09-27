@@ -1,16 +1,60 @@
+/*
+Propriétés générales du site
+mobile first
+*/
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    font-family: 'Monserrat', 'Open sans', 'sans-serif';
+}
+
+@media (min-width: 800px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*
+Propriétés de la navbar
+mobile first
+*/
+
+.sidebar{
+    width: 12.5em;
+    display: flex;
+}
+
+@media (min-width: 800px){
+    .sidebar{
+        display: flex;
+        width: 100%;
+    }
+}
+
 nav ul {
     display: flex;
-    justify-content: center;
-    background-color: white;
-    margin: 0;
-    padding: 10px;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    font-size: 17px;
+    background-color: lightgrey;
+    width: 12.5em;
+    margin: 0;
+    padding: 0.625em;
+    font-size: 1.063em;
+}
+
+@media (min-width: 800px){
+    nav ul{
+        flex-direction: row;
+        width: 100%;
+    }
 }
 
 nav ul li {
     list-style: none;
-    margin-right: 5%;
 }
 
 nav ul li a {
@@ -21,10 +65,48 @@ nav ul li a {
 nav ul li a:hover {
     color: goldenrod;
 }
+
 #logo {
     height: 3em;
 }
-body {
+
+/*
+Propriétés de la bannière
+mobile first
+*/
+
+.banniere{
+    background: white;
+    width: 100%;
+}
+
+#banniere{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 800px){
+    #banniere{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+
+/*
+Propriétés générales du corps
+mobile first
+*/
+
+.body {
+    width: 37.5em;
     background-color: #D99F9F;
     margin: 0px;
+}
+
+@media (min-width: 800px){
+    .body{
+        width: 100%;
+    }
 }
