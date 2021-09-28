@@ -47,25 +47,30 @@ nav ul li a:hover {
     height: 3em;
 }
 
+@media (min-width: 800px) {
+    #logo {
+      display: none;
+    }
+  }
+
 /*  Banniere CSS  */ 
-.banniere{
+.banniere {
     background: white;
     width: 100%;
-}
-
-#banniere{
+  }
+  
+  #banniere-img {
     max-width: 100%;
     height: auto;
-}
-
-@media (min-width: 800px){
-    #banniere{
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: auto;
+  }
+  
+  @media (min-width: 800px) {
+    #banniere-img {
+      display: block;
+      margin: auto;
     }
-}
+  }
+
  /* Div Body */
 .body {
     width: 37.5em;
@@ -78,3 +83,24 @@ nav ul li a:hover {
         width: 100%;
     }
 }
+
+/* Main Title CSS */
+.main-title {
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    font-size: small;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    background: white;
+    padding-top: 0.5em;
+    padding-bottom: 1.5em;
+  }
+  
+  @media (min-width: 800px) {
+    .main-title {
+      font-size: large;
+    }
+  }
