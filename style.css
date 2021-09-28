@@ -1,8 +1,100 @@
+/* Body CSS */
 body {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    font-family: 'Monserrat', 'Open sans', 'sans-serif';
+}
+
+@media (min-width: 800px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Navbar CSS */
+.sidebar{
+    width: 12.5em;
+    display: flex;
+}
+
+@media (min-width: 800px){
+    .sidebar{
+        display: flex;
+        width: 100%;
+    }
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgrey;
+    width: 12.5em;
+    margin: 0;
+    padding: 0.625em;
+    font-size: 1.063em;
+}
+
+@media (min-width: 800px){
+    nav ul{
+        flex-direction: row;
+        width: 100%;
+    }
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: goldenrod;
+}
+
+#logo {
+    height: 3em;
+}
+
+/* Banniere CSS */
+.banniere{
+    background: white;
+    width: 100%;
+}
+
+#banniere{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 800px){
+    #banniere{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+ /* Div Body */
+.body {
+    width: 37.5em;
     background-color: #D99F9F;
     margin: 0px;
 }
 
+@media (min-width: 800px){
+    .body{
+        width: 100%;
+    }
+}
+
+/* Articles CSS */
 #flex-container1 {
     display: flex;
     font-size: 14px;
@@ -30,27 +122,12 @@ body {
     padding: 10px;
 }
 
-body {
+/* Footer CSS */
+footer {
+    background-color: rgb(247, 108, 108);
+    font-size: 13px;
+}
+.flex-container {
     display: flex;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    font-family: 'Monserrat', 'Open sans', 'sans-serif';
-}
-
-@media (min-width: 800px){
-    body{
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-.body {
-    width: 37.5em;
-    background-color: #D99F9F;
-    margin: 0px;
-}
-
-@media (min-width: 800px){
-    .body{
-        width: 100%;
-    }
+    justify-content: space-around;
 }
