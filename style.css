@@ -1,31 +1,3 @@
-nav ul {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    margin: 0;
-    padding: 10px;
-    align-items: center;
-    font-size: 17px;
-}
-
-nav ul li {
-    list-style: none;
-    margin-right: 5%;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: goldenrod;
-}
-
-#logo {
-    height: 3em;
-}
-
 body {
     background-color: #D99F9F;
     margin: 0px;
@@ -52,12 +24,33 @@ body {
     margin-right: 50px;
     width: 50%;
 }
-.banniere {
-    background-color: rgb(247, 108, 108);
-    height: 200px;
-}
 
 .articleDiv {
     background-color: white;
     padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    font-family: 'Monserrat', 'Open sans', 'sans-serif';
+}
+
+@media (min-width: 800px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.body {
+    width: 37.5em;
+    background-color: #D99F9F;
+    margin: 0px;
+}
+
+@media (min-width: 800px){
+    .body{
+        width: 100%;
+    }
 }
