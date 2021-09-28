@@ -104,3 +104,14 @@ nav ul li a:hover {
       font-size: large;
     }
   }
+
+  /* Footer CSS */
+.footer {
+  background-color: rgb(253, 130, 130);
+  font-size: 13px;
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
