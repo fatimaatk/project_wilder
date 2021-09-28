@@ -115,17 +115,18 @@ nav ul li a:hover {
     margin-left: 50px;
     margin-right: 50px;
     width: 50%;
+    border-radius: 10px;
 }
 
 .articleDiv {
     background-color: white;
-    padding: 10px;
 }
 
 /* Footer CSS */
-footer {
-    background-color: rgb(247, 108, 108);
+.footer {
+    background-color: rgb(253, 130, 130);
     font-size: 13px;
+    width: 100%;
 }
 .flex-container {
     display: flex;
