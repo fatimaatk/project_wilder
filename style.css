@@ -30,6 +30,7 @@ mobile first
 @media (min-width: 800px) {
   .sidebar {
     width: 100%;
+    position: fixed;
   }
 }
 
@@ -64,18 +65,18 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #F76F6F;
+  color: #f76f6f;
 }
 
 #logo {
   height: 3em;
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
     #logo {
       display: none;
     }
-  }
+  } */
 
 /*
 Propriétés de la bannière
@@ -96,6 +97,7 @@ mobile first
   #banniere-img {
     display: block;
     margin: auto;
+    padding-top: 5em;
   }
 }
 
@@ -113,6 +115,7 @@ mobile first
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  text-shadow: 1px 1px 2px #39424e;
   background: white;
   padding-top: 0.5em;
   padding-bottom: 1.5em;
@@ -131,7 +134,6 @@ mobile first
 
 .container-main {
   width: 37.5em;
-  background-color: lavenderblush;
   margin: 0px;
 }
 
@@ -139,4 +141,50 @@ mobile first
   .container-main {
     width: 100%;
   }
+}
+
+.container-main-body {
+  padding: 1.5em;
+}
+
+/*
+Propriétés générales du footer
+mobile first
+*/
+
+footer {
+  background: pink;
+  padding: 0.3em;
+}
+
+footer p {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 1.5em;
+}
+
+.wilder-reseaux {
+  color: white;
+  /* background: border-box rgba(57, 66, 78, 0.75); */
+  background: border-box rgba(247, 111, 111, 0.7);
+  width: 13em;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+footer ul li {
+  display: flex;
+  list-style: none;
+}
+
+.icone {
+  width: 35%;
+  height: 35%;
 }
