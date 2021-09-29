@@ -13,18 +13,22 @@ body {
     }
 }
 
- /* Div Body */
-.body {
+.container-main {
     width: 37.5em;
-    background-color: #D99F9F;
     margin: 0px;
-}
-
-@media (min-width: 800px){
-    .body{
-        width: 100%;
+    padding-left: 12.5em;
+  }
+  
+  @media (min-width: 800px) {
+    .container-main {
+      width: 100%;
+      padding-left: 0;
     }
-}
+  }
+  
+  .container-main-body {
+    padding: 1.5em;
+  }
 
 /* Articles CSS */
 #flex-container1 {
