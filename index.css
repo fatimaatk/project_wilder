@@ -12,3 +12,9 @@
     width: 50%;
     border-radius: 10px;
 }
+
+@media (max-width: 800px) {
+    .articles {
+        flex-wrap: wrap;
+    }
+  }

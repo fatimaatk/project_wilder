@@ -37,6 +37,12 @@
     }
 }
 
+@media (max-width: 320px) {
+    .button {
+        margin-right: 0px;
+    }
+}
+
 
 .texte {
     height: 20px;
