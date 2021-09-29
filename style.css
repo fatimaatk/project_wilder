@@ -140,3 +140,92 @@ mobile first
     width: 100%;
   }
 }
+
+/* Fatima index - titre de la page */
+.main-title {
+  display: flex;
+  flex-direction: column;
+ 
+  background-color: rgba(245, 245, 245);
+  height: 15rem;
+ 
+}
+.h1index{
+  width: 100%;
+  height: 80%;
+  font-size: 4rem;
+  color :  #39424e;
+  text-shadow: 1px 1px 2px grey;
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  margin : 0;
+  margin-top : 3rem;
+  
+}
+
+.h1-second-index{
+  width: 100%;
+  color : rgb(253, 130, 130);
+  text-shadow: 1px 1px 2px grey;
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  background-color: rgba(245, 245, 245);
+ 
+ 
+  
+
+}
+
+/* Fatima index - section article x3 page */
+.index-section-articles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 70rem;
+ 
+
+
+}
+
+.quisommesnous, .pourquoi, .remote {
+  display: flex;
+  box-shadow:  5px  rgba(155, 152, 152, 0.534);
+  border : solid 1px rgba(155, 152, 152, 0.534);
+  border-radius: 30px;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  width: 36rem;
+  height: 80%;
+}
+
+.text-index, .h2index, .image-remote{
+  display: flex;
+  
+  flex-direction: column;
+  
+  width: 80%;
+}
+
+.image-remote{
+  
+  width: 90%;
+}
+.text-index{
+  height: 50%;
+}
+
+
+/* Footer CSS */
+.footer {
+  background-color: rgb(253, 130, 130);
+  font-size: 13px;
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
