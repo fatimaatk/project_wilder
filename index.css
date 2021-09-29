@@ -1,0 +1,14 @@
+.articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divArticle {
+    background-color: #F1F1F1;
+    padding: 15px;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 50%;
+    border-radius: 10px;
+}

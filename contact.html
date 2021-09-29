@@ -5,8 +5,8 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <link rel="stylesheet" href="prototype.css">
-     <link rel="stylesheet" href="index.css">
-     <title>Accueil</title>
+     <link rel="stylesheet" href="contact.css">
+     <title>Semaine Type à la Wild</title>
      <nav class="sidebar">
          <ul>
              <li><a href="index.html">ACCUEIL</a></li>
@@ -26,18 +26,18 @@
              <img src="images/image_banniere.png" alt="Bannière" id="banniere-img" />
          </div>
          <div class="main-title">
-             <h1>Bienvenue à la wild</h1>
+             <h1>Vous pouvez nous contacter ici !</h1>
          </div>
          <body>
              <div class="container-main-body">
-                 <div class="articles">
-                    <div class="divArticle"><center><h4>Qui sommes-nous ?</h4></center> <br/>
-                        <p>Bla bla</p></div>
-                    <div class="divArticle"><center><h4>Pourquoi avons-nous fait ce site ?</h4></center> <br/>
-                        <p>Bla bla</p></div>
-                    <div class="divArticle"><center><h4>Pourquoi choisir le remote ?</h3></center> <br/>
-                        <p>Bla bla</p></div>
-                 </div>
+                <div class="divContact">
+                    <form action="">
+                        <div class="divInput"><input type="text"  class="texte" placeholder="Nom / Prénom" id="name"></div>
+                        <div class="divInput"><input type="email"  class="texte" placeholder="Email" id="email"></div>
+                        <div class="divMessage"><textarea class="message" id="message">Message</textarea></div>
+                        <div class="divbutton"><button type="button" class="button" id="sendButton">Envoyer</button></div>
+                    </form>
+                </div>
              </div>
          </body>
          <footer>
@@ -93,4 +93,5 @@
              </div>
          </footer>
       </div>
+      <script src="contact.js"></script>
 </html>
