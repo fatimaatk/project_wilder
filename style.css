@@ -24,13 +24,16 @@ mobile first
 
 .sidebar {
   display: flex;
+  position: fixed;
   width: 12.5em;
+  height: 100vh;
 }
 
 @media (min-width: 800px) {
   .sidebar {
-    width: 100%;
     position: fixed;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -135,11 +138,13 @@ mobile first
 .container-main {
   width: 37.5em;
   margin: 0px;
+  padding-left: 12.5em;
 }
 
 @media (min-width: 800px) {
   .container-main {
     width: 100%;
+    padding-left: 0;
   }
 }
 
