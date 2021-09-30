@@ -115,6 +115,11 @@ mobile first
   height: auto;
 }
 
+.banniere-img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (min-width: 800px) {
   #banniere-img {
     display: block;
