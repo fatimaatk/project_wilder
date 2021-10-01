@@ -1,0 +1,81 @@
+
+/* css bien se preparer*/
+img{
+    width: 1px;
+    height: 1px;
+    float: left;
+    opacity: 0%;
+}
+h1{
+    color: blue;
+}
+ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+li{
+    padding-top: 1em;
+    height: 2em;
+    font-size: 17px;
+    list-style: none;
+    border-radius: 7px;
+    color: black;
+    background-color: salmon;
+}
+.cadreli {
+    margin-bottom: 3em;
+    border-radius: 9px;
+    border-style: groove;
+    background-color: #f1f1f1;
+    color: black;
+  ;
+}
+a{
+    color: #009688;
+}
+p{
+    margin: 10px;
+}
+
+/*css grand ecran */
+@media screen and (min-width : 426px) {
+    img{
+        margin: 1em;
+        width: 16em;
+        height: 14em;
+        opacity: 100%;
+    }
+    .imgLeft{
+        float: left;
+    }
+    .imgRight{
+        float: right;
+        margin-top: 67px;
+    }
+    .goodVibes{
+        margin-top: 4em;
+    }
+    h1{
+        color: chartreuse;
+    }
+    li{
+        box-shadow: 6px 21px 15px -11px black;
+    }
+    p{
+        margin-top: 2em;
+    }
+}
+/* resolution 4k */
+@media screen and (min-width : 1500px){
+    img{
+        height: 26em;
+        float: left;
+        width: 30em;
+    }
+    p{
+        margin-top: 1em;
+        font-size: 2em;
+    }
+}
