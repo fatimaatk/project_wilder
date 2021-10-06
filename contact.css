@@ -22,11 +22,12 @@
     margin-right: auto;
     margin-bottom: 50px;
 }
+
 .button {
     height: 20px;
     width: 70px;
     margin-left: 48%;
-    margin-right: 48%;
+    margin-bottom: 2%;
 }
 
 @media (min-width: 800px) {
@@ -47,7 +48,6 @@
         margin-right: 0px;
     }
 }
-
 
 .texte {
     height: 20px;
@@ -92,7 +92,9 @@
     align-content: stretch;
 }
 
-.article-blog, .article-blog2, .article-blog3 {
+.article-blog,
+.article-blog2,
+.article-blog3 {
     width: 14rem;
     border-radius: 30px;
     box-shadow: 10px 10px 20px 10px rgba(0, 0, 255, .2);
@@ -100,15 +102,19 @@
 }
 
 @media (min-width: 800px) {
-    .article-blog, .article-blog2, .article-blog3 {
+    .article-blog,
+    .article-blog2,
+    .article-blog3 {
         width: 16rem;
-    } 
+    }
 }
 
 @media (min-width: 1200px) {
-    .article-blog, .article-blog2, .article-blog3 {
+    .article-blog,
+    .article-blog2,
+    .article-blog3 {
         width: 20rem;
-    } 
+    }
 }
 
 .dot {
@@ -124,11 +130,14 @@
     transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
     background-color: #717171;
 }
 
+
 /* CAROUSSEL ANIMATION*/
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
