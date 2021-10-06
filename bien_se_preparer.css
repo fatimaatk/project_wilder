@@ -1,12 +1,14 @@
 
 /* css bien se preparer*/
 img{
-    width: 1px;
-    height: 1px;
-    float: left;
-    opacity: 0%;
+    
+    width: 7em;
+    height: 9em;
+    opacity: 100%;
+    margin-top: 1em;
 }
 h1{
+    font-weight: bold;
     color: blue;
 }
 ul{
@@ -19,10 +21,10 @@ li{
     padding-top: 1em;
     height: 2em;
     font-size: 17px;
+    font-weight: bold;
     list-style: none;
     border-radius: 7px;
-    color: black;
-    background-color: salmon;
+    color: salmon;
 }
 .cadreli {
     margin-bottom: 3em;
@@ -54,13 +56,23 @@ p{
         float: right;
         margin-top: 67px;
     }
-    .goodVibes{
+    .imgsavoiretre{
         margin-top: 4em;
+        float: left;
     }
     h1{
+        font-weight: bold;
         color: chartreuse;
     }
     li{
+        padding-top: 1em;
+        height: 2em;
+        font-size: 20px;
+         font-weight: bold;
+        list-style: none;
+        border-radius: 7px;
+        color: antiquewhite;
+        background-color: salmon;
         box-shadow: 6px 21px 15px -11px black;
     }
     p{
@@ -69,6 +81,12 @@ p{
 }
 /* resolution 4k */
 @media screen and (min-width : 1500px){
+    li{
+        font-weight: bold;
+    }
+    h1{
+        font-weight: bold;
+    }
     img{
         height: 26em;
         float: left;
