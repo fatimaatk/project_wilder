@@ -242,6 +242,11 @@ footer {
   width: 55%;
   height: auto;
   padding-left: 0.38em;
+  transition: transform 0.75s;
+}
+
+.icone:hover {
+  transform: rotate(180deg);
 }
 
 @media (min-width: 700px) and (max-width: 1000px) {
