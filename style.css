@@ -52,6 +52,7 @@ nav ul {
   nav ul {
     flex-direction: row;
     width: 100%;
+    height: 6.5vh;
     padding: 1.5em;
   }
 }
@@ -70,6 +71,12 @@ nav ul li a {
 @media (min-width : 700px) {
   nav ul li a {
     font-size: 1.063em;
+  }
+}
+
+@media (min-width : 1000px) {
+  nav ul li a {
+    padding-left: 1.5em;
   }
 }
 
@@ -127,11 +134,18 @@ mobile first
   letter-spacing: normal;
   text-shadow: 1px 1px 2px #39424e;
   background: white;
+  padding-left: 5vw;
   padding-top: 0.5em;
   padding-bottom: 1.5em;
 }
 
-@media (min-width : 1000px) {
+@media (min-width : 320) and (max-width : 800px) {
+  .main-title {
+    padding-left: 0;
+  }
+}
+
+@media (min-width : 800px) {
   .main-title {
     font-size: large;
   }
@@ -142,6 +156,9 @@ Propriétés générales du corps
 mobile first
 */
 
+/*
+Page globale or navbar
+*/
 .container-main {
   padding-left: 20vw;
 }
@@ -153,6 +170,9 @@ mobile first
   }
 }
 
+/*
+Body
+*/
 .container-main-body {
   padding: 0 1em 0 1.5em;
   text-align: justify;
@@ -164,13 +184,112 @@ mobile first
   }
 }
 
+.container-section-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 5em;
+}
+
+#semaine-type-img {
+  max-width: 90%;
+  margin: auto;
+  padding-bottom: 1.5em;
+}
+
+@media (min-width : 1000px) {
+  .intro-semaine-type {
+    width: 49%;
+    text-align: center;
+  }
+}
+
+.container-main-section-articles {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.container-section-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media (min-width : 1000px) {
+  .container-section-articles {
+    width: 60%
+  }
+}
+
+.section-img{
+  display: none;
+}
+
+@media (min-width : 1000px) {
+  .section-img{
+    display: block;
+    max-width: 40%;
+  }
+}
+
+.second-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.1em;
+  background-color: rgba(247, 111, 111, 1);
+  box-shadow: 0px 5px 10px 0px rgba(247, 111, 111, 0.70);
+  border-radius: 1em;
+  width: fit-content;
+  padding: 0.25em 0.5em;
+}
+
+@media (min-width : 700px) {
+  h2 {
+    font-size: 1.3em;
+  }
+}
+
+article {
+  text-align: justify;
+  background-color: rgba(57, 66, 78, 0.055);
+  box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.20);
+  border-radius: 1em;
+  margin-top: -0.5em;
+  margin-bottom: 1em;
+  padding: 0.3em 0.5em;
+}
+
+@media (min-width : 700px) {
+  article {
+    width: 80%;
+    text-align: center;
+  }
+}
+
+@media (min-width : 1000px) {
+  article {
+    text-align: justify;
+  }
+}
+
 /*
 Propriétés générales du footer
 mobile first
 */
 
 footer {
-  background: pink;
+  background: linear-gradient(#39424e4b, #39424e);
   padding-top: 0.3em;
   padding-left: 1.2em;
 }
@@ -178,18 +297,6 @@ footer {
 @media (min-width : 700px) {
   footer {
     padding: 0.3em;
-  }
-}
-
-footer p {
-  text-align: center;
-  font-style: italic;
-  font-size: 0.8em;
-}
-
-@media (min-width : 700px) {
-  footer p {
-    font-size: 1.2em;
   }
 }
 
@@ -208,8 +315,7 @@ footer p {
 
 .wilder-reseaux {
   color: white;
-  /* background: border-box rgba(57, 66, 78, 0.75); */
-  background: border-box rgba(247, 111, 111, 0.7);
+  background: border-box rgba(57, 66, 78, 0.75);
   width: 6.2em;
   border-radius: 1em;
   margin: 0.3em;
@@ -225,6 +331,19 @@ footer p {
 @media (min-width : 1000px) {
   .wilder-reseaux {
     width: 13em;
+  }
+}
+
+.text-footer {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  color: white;
+}
+
+@media (min-width : 700px) {
+  .text-footer {
+    font-size: 1.2em;
   }
 }
 

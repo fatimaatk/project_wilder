@@ -1,0 +1,23 @@
+{
+  "name": "project_wilder",
+  "version": "1.0.0",
+  "description": "Projet numéro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatimaatk/project_wilder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatimaatk/project_wilder/issues"
+  },
+  "homepage": "https://github.com/fatimaatk/project_wilder#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
