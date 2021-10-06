@@ -1,0 +1,239 @@
+/* titre page */
+
+.h1index {
+    width: 100%;
+    height: 80%;
+    font-size: 4rem;
+    color: #39424e;
+    text-shadow: 1px 1px 2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    margin: 0;
+    margin-top: 3rem;
+}
+
+.h1-second-index {
+    width: 100%;
+    color: rgb(253, 130, 130);
+    text-shadow: 1px 1px 2px grey;
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    text-decoration: none;
+}
+
+/* Formulaire partie 1 contact reseaux sociaux CSS Fatima */
+
+.reseaux-sociaux {
+    margin-left: 3rem;
+}
+
+.contacter_wild {
+    display: flex;
+    width: 80%;
+    margin-left: 5rem;
+}
+
+.logo-rs-wild {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.logo-rs {
+    width: 3.5rem;
+}
+
+.blog-wild {
+    display: block;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.article-blog, .article-blog2, .article-blog3 {
+    width: 20rem;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 255, .2);
+    display: inline-block;
+    margin-left: 10rem;
+    padding-bottom: 6rem;
+}
+
+/* Formulaire partie 1 contact reseaux sociaux CSS Fatima */
+
+.formulaire {
+    margin-left: 3rem;
+    height: 45rem;
+    padding-top: 3rem;
+}
+
+/* Formulaire CSS Thomas */
+
+.divContact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+}
+
+.divInput {
+    width: 80%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.divMessage {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 20rem;
+}
+
+#message, #name, #email {
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    font-size : 15px;
+
+}
+
+.button {
+    font: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #F76C6C;
+    border-radius: 30px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 800px) {
+    .divInput {
+        width: 40%;
+    }
+    .button {
+        height: 40px;
+        width: 10rem;
+    }
+    .divMessage {
+        width: 40%;
+    }
+}
+
+@media (max-width: 320px) {
+    .button {
+        margin-right: 0px;
+    }
+}
+
+.texte {
+    height: 20px;
+    width: 100%;
+}
+
+.message {
+    height: 100px;
+    width: 100%;
+}
+
+/** test caroussel */
+.caroussel{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border : red solid;
+}
+
+
+.caroussel_panorama {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
