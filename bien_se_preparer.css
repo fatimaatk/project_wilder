@@ -1,5 +1,4 @@
-
-/* css bien se preparer*/
+/*koko*/
 img{
     
     width: 7em;
@@ -12,6 +11,7 @@ h1{
     color: blue;
 }
 ul{
+    margin :0;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -27,12 +27,13 @@ li{
     color: salmon;
 }
 .cadreli {
+    margin-right: 1em;
     margin-bottom: 3em;
+    margin-left: 2em;
     border-radius: 9px;
     border-style: groove;
-    background-color: #f1f1f1;
     color: black;
-  ;
+    background-color: #f1f1f1;
 }
 a{
     color: #009688;
@@ -41,9 +42,10 @@ p{
     margin: 10px;
 }
 
-/*css grand ecran */
-@media screen and (min-width : 426px) {
-    img{
+
+  @media (min-width: 1000px) {
+
+img{
         margin: 1em;
         width: 16em;
         height: 14em;
@@ -62,13 +64,12 @@ p{
     }
     h1{
         font-weight: bold;
-        color: chartreuse;
     }
-    li{
+    .liarticle{
         padding-top: 1em;
         height: 2em;
         font-size: 20px;
-         font-weight: bold;
+        font-weight: bold;
         list-style: none;
         border-radius: 7px;
         color: antiquewhite;
@@ -79,21 +80,10 @@ p{
         margin-top: 2em;
     }
 }
-/* resolution 4k */
-@media screen and (min-width : 1500px){
-    li{
-        font-weight: bold;
+
+    body {
+      flex-wrap: wrap;
     }
-    h1{
-        font-weight: bold;
-    }
-    img{
-        height: 26em;
-        float: left;
-        width: 30em;
-    }
-    p{
-        margin-top: 1em;
-        font-size: 2em;
-    }
-}
+    
+   
+    
