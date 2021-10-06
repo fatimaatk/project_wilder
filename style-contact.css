@@ -22,6 +22,7 @@
     text-decoration: none;
 }
 
+
 /* Formulaire partie 1 contact reseaux sociaux CSS Fatima */
 
 .reseaux-sociaux {
@@ -53,7 +54,7 @@
     border : red solid;
     display: flex;
     padding-top: 3rem;
-    width: auto;
+    width: 100%;
 }
 
 .article-blog, .article-blog2, .article-blog3 {
