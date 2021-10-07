@@ -142,7 +142,7 @@ p {
   border-radius: 7px;
   color: white;
   background-color: #f76f6f;
-  box-shadow: 6px 21px 15px -11px rgb(126, 125, 125);
+  box-shadow: 0px 5px 10px 0px rgb(247 111 111 / 70%);
 }
 
 @media (min-width: 0px) and (max-width: 500px) {
