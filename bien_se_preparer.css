@@ -8,10 +8,6 @@
     margin-top: 1em;
 }*/
 
-h1 {
-    font-weight: bold;
-    color: blue;
-}
 
 ul {
     margin: 0;
@@ -28,7 +24,7 @@ li {
     font-weight: bold;
     list-style: none;
     border-radius: 7px;
-    color: salmon;
+    color: white;
 }
 
 .cadreli {
@@ -83,8 +79,8 @@ p {
         font-weight: bold;
         list-style: none;
         border-radius: 7px;
-        color: antiquewhite;
-        background-color: salmon;
+        color: white;
+        background-color: #f76f6f;
         box-shadow: 6px 21px 15px -11px black;
     }
     p {
