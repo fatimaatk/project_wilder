@@ -302,7 +302,7 @@ article {
 
 @media (min-width: 1000px) {
   article {
-    text-align: justify;
+    text-align: center;
   }
 }
 
