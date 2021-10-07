@@ -28,6 +28,11 @@
     width: 70px;
     margin-left: 48%;
     margin-bottom: 2%;
+    background-color: #F76C6C;
+    box-shadow: none;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
 }
 
 @media (min-width: 800px) {
