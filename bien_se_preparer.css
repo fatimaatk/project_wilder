@@ -1,0 +1,89 @@
+/*koko*/
+img{
+    
+    width: 7em;
+    height: 9em;
+    opacity: 100%;
+    margin-top: 1em;
+}
+h1{
+    font-weight: bold;
+    color: blue;
+}
+ul{
+    margin :0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+li{
+    padding-top: 1em;
+    height: 2em;
+    font-size: 17px;
+    font-weight: bold;
+    list-style: none;
+    border-radius: 7px;
+    color: salmon;
+}
+.cadreli {
+    margin-right: 1em;
+    margin-bottom: 3em;
+    margin-left: 2em;
+    border-radius: 9px;
+    border-style: groove;
+    color: black;
+    background-color: #f1f1f1;
+}
+a{
+    color: #009688;
+}
+p{
+    margin: 10px;
+}
+
+
+  @media (min-width: 1000px) {
+
+img{
+        margin: 1em;
+        width: 16em;
+        height: 14em;
+        opacity: 100%;
+    }
+    .imgLeft{
+        float: left;
+    }
+    .imgRight{
+        float: right;
+        margin-top: 67px;
+    }
+    .imgsavoiretre{
+        margin-top: 4em;
+        float: left;
+    }
+    h1{
+        font-weight: bold;
+    }
+    .liarticle{
+        padding-top: 1em;
+        height: 2em;
+        font-size: 20px;
+        font-weight: bold;
+        list-style: none;
+        border-radius: 7px;
+        color: antiquewhite;
+        background-color: salmon;
+        box-shadow: 6px 21px 15px -11px black;
+    }
+    p{
+        margin-top: 2em;
+    }
+}
+
+    body {
+      flex-wrap: wrap;
+    }
+    
+   
+    
