@@ -19,5 +19,8 @@
   "homepage": "https://github.com/fatimaatk/project_wilder#readme",
   "devDependencies": {
     "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "email-verifier": "^0.4.1"
   }
 }
