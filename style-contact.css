@@ -1,27 +1,8 @@
 /* Mise en page de la div comprenant le titre et le sous titre*/
 
-.main-title {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-}
 
-.h1index {
-    height: 80%;
-    font-size: 4rem;
-    color: #39424e;
-    text-shadow: 1px 1px 2px grey;
-}
 
-.h1-second-index {
-    width: 100%;
-    color: rgb(253, 130, 130);
-    text-shadow: 1px 1px 2px grey;
-    text-decoration: none;
-}
+
 
 /* Formulaire partie 1 contact reseaux sociaux CSS Fatima */
 
@@ -52,6 +33,18 @@
     padding: 2%;
 }
 
+@media (max-width: 800px){
+    .contacter_wild{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-rs-wild{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+    }
+}
+
 /* taille des logos*/
 
 .logo-rs {
@@ -70,97 +63,6 @@
     width: 80%;
 }
 
-/* mise en page du caroussel*/
-
-.caroussel {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
-    width: 30%;
-}
-
-/* mise en page des fleches du caroussel*/
-
-.fleche {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    bottom: 10rem;
-    width: 100%;
-}
-
-.prev, .next {
-    cursor: pointer;
-    display: inline-block;
-    font-size: 25px;
-    transition: 0.8s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
-/** mis en page des images du blog*/
-
-.article-blog, .article-blog2, .article-blog3 {
-    width: 20rem;
-    border-radius: 30px;
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 255, .2);
-    margin-top: 10%;
-}
-
-/** mis en page des dot du caroussel*/
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    border: black;
-    display: inline-block;
-    justify-self: flex-end;
-    transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-    background-color: #717171;
-}
-
-/* Caroussel animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@media (max-width: 800px) {
-    .blog-wild {
-        flex-direction: column
-    }
-}
 
 /*--------------------------------------------------------------------*/
 
@@ -205,11 +107,11 @@
 }
 #message{
     height: 20rem;
-    width: 50rem;
+    width: 100%;
 }
  #name, #email {
     height: 80%;
-    width: 50rem;
+    width: 100%;
     border-radius: 3px;
     font-size: 15px;
 }
