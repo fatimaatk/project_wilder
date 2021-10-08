@@ -22,7 +22,8 @@ document.getElementById("sendButton").addEventListener("click", function() {
         document.querySelector('a').classList.toggle('greyText');
         document.querySelector('h4').classList.toggle('greyText');
 
-        alert("Les Ploppers et les Plopinettes vous salut")
+        alert("Les Ploppers et les Plopinettes vous remercient.")
+        return 0;
     // Repair plop
     } else if (nom.value != "plop") {
         plopFooter.style.background = "#39424e";
