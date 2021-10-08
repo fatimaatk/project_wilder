@@ -9,11 +9,6 @@ document.getElementById("sendButton").addEventListener("click", function() {
     const email = document.getElementById("email");
     const plopFooter = document.getElementById("plopFooter");
     const plopBar = document.getElementById("plopBar");
-    // Check name value isn't empty
-    if (nom.value === "") {
-        alert("Merci de renseigner votre Nom.");
-        return 0;
-    }
     // Check if plop
     if (nom.value === "plop" || nom.value === "Plop") {
         plopFooter.style.background = "pink";
@@ -29,6 +24,10 @@ document.getElementById("sendButton").addEventListener("click", function() {
         plopFooter.style.background = "#39424e";
         plopBar.style.background = "#39424e";
         document.getElementById("banniere-img").src = "images/image_banniere.png";
+        if (nom.value === "") {
+            alert("Merci de renseigner votre Nom.");
+        return 0;
+        }
     }
     // Check if mail is empty
     if (email.value === "" && nom.value !== "plop" && nom.value !== "Plop") {
